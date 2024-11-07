@@ -1,12 +1,80 @@
+/* body{
+    background-color: purple    ;
+    color: white;
+}
+
+a[target="_top"]{
+    background-color: yellow;
+}
+
+a{
+    background-color: white;
+}
 .class1 .class2{
-    background-color: aqua;
+    background-color: yellow;
+    color: black;
 }
-.class4{
-    background-color: blueviolet;
+
+.class1.class2{
+    color: brown;
+    background-color: pink;
+} 
+
+div {
+    background-color: black;
 }
-body{
-    color: pink;
+
+.hello.byy{
+    background-color: green;
 }
-div{
-    background-color: orange;
+[class5*="foo"]{
+    color:red;
+}
+[class6~="color-yellow"]{
+    color:yellow;
+}
+[class7^="foo-"]{
+    color:aqua
+}
+[class$="file"]{
+    color:red;
+} */
+/* div span{
+    color:aqua;
+}
+div > span{
+    background-color: black;
+}
+a ~ span{
+    color:red;
+}
+a + span{
+    color:red;
+}
+span + span{
+    color:red;
+} */
+/* p +p{
+    color:red;
+} */
+/* p ~ p{
+    color:red;
+} */
+/* div.warning{
+    color:aqua;
+}
+div.important{
+    color:red;
+}
+div.important.warning{
+    color:blue;
+} */
+p:last-of-type{
+    background: red;
+}
+h1:last-of-type{
+    background: yellow;
+}
+input:in-range{
+    border: 1px solid blue;
 }
