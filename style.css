@@ -69,7 +69,7 @@ div.important{
 div.important.warning{
     color:blue;
 } */
-p:last-of-type{
+/* p:last-of-type{
     background: red;
 }
 h1:last-of-type{
@@ -77,4 +77,36 @@ h1:last-of-type{
 }
 input:in-range{
     border: 1px solid blue;
+} */
+/* .b-m{
+    margin: 10px auto;
+    padding: 5px;
+    background-color: azure;
+    border: 2px solid #000;
+    width: 300px;
+    height: 200px; text-align: center;
+    box-sizing: border-box;
+} */
+/* .b-m{
+    margin: 10px auto;
+    padding: 5px;
+    background-color: initial;
+    border: 2px solid #000;
+    width: 300px;
+    height: 200px; text-align: center;
+    box-sizing: border-box;
+}
+div{
+    background-color: aqua;
+}
+span{
+    background-color: blue;
+} */
+/* body{
+    background-color: #dfc5fe;
+} */
+body{
+    background-image: url('wallpapertonystark.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
